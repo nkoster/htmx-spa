@@ -1,6 +1,6 @@
 ## HTMX Single Page Application
 
-This repository hosts a Go-based server application that serves as a skeleton/example application for dynamically serving HTML content based on URL paths. Utilizing the HTMX library to enhance interactivity without requiring full page reloads, it supports both frontend and backend routing with full history support to ensure seamless user navigation and state management. You can use this code as a base for new full-stack SPA projects, especially when you’re tired of dealing with insane JS dependency crap, like in React/Next.js projects, for example.
+This repository hosts a [Go](https://go.dev/)-based server application that serves as a skeleton/example application for dynamically serving HTML content based on URL paths. Utilizing the [HTMX](https://htmx.org/) library to enhance interactivity without requiring full page reloads, it supports both frontend and backend routing with full history support to ensure seamless user navigation and state management. You can use this code as a base for new full-stack SPA projects, especially when you’re tired of dealing with insane JS dependency crap, like in React/Next.js projects, for example.
 
 ### Project Structure
 
