@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmx SPA Example</title>
+    <script src="https://unpkg.com/htmx.org@1.9.0"></script>
+</head>
+<body>
+
+<header>
+    <nav hx-boost="true">
+        <a href="/" hx-push-url="/">Home</a>
+        <a href="page_a.html" hx-push-url="/page_a.html">Page A</a>
+        <a href="page_b.html" hx-push-url="/page_b.html">Page B</a>
+    </nav>
+</header>
+
+<main>
+    <div id="content">
+        {{.Content}}
+    </div>
+</main>
+
+</body>
+</html>
