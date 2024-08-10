@@ -12,6 +12,7 @@ This repository hosts a Go-based server application that serves as a skeleton/ex
 
 - **Dynamic Content Loading**: Dynamically inserts content from the `templates/` directory into the `index.html` layout depending on the URL path accessed.
 - **HTMX Integration**: Utilizes `htmx` for dynamic interactions, allowing for partial page updates and enhancing user experience with minimal overhead.
+- **Routing and Browser History**: Supports frontend and backend routing that integrates seamlessly with browser history, ensuring smooth navigation and a robust UX.
 - **Static File Serving**: Efficiently manages and serves static resources from the `static/` directory under the `/static/` URL path.
 
 ### How It Works
